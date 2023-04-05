@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.first-container{
+    display: flex;
+    background-color: #2D25A0;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+.section-heading{
+
+    width: 45%;
+    padding-top: 60px;
+    padding-left: 220px;
+}
+
+.section-heading h1{
+    color: white;
+    font-size:70px;
+    margin-bottom: 5px;
+}
+button{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0px solid white;
+}
+.section-image{
+    width: 55%;
+    padding: 50px 0;
+    padding-right: 50px;
+}
+.section-image img{
+    width: 85%;
+   
+}
+.second-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 165px;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    width: 1100px;
+    
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.532);
+   
+}
+.player-image img{
+    width: 100%;
+}
+.player-info{
+    padding: 10px;
+
+}
+/*-------------------------------------------------
+ third container means live match sections styles ------------------------------------------------*/
+.live-match{
+    display: flex;
+    padding: 0 182px;
+}
+.match-details, .match-snippets{
+    width: 50%;
+}
+.highlights-title h1{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.match-details{
+    
+    padding-right: 140px;
+}
+
+.match-snippets img{
+    width: 100%;
+}
+hr{
+    margin: 77px 0 ;
+}
+/* ----------------
+ footers styles
+------------------ */
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 483.87px;
+    height: 110px;
+
+}
+.social-media-icon{
+    display: flex;
+    justify-content: center;
+}
+.social-media-icon img{
+    width: 32px;
+    height: 32px;
+    margin-left: 16px;
+
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
+/*----------------
+ Media Querries
+--------------- */
+@media only screen and (max-width:688px) {
+    .first-container{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .section-heading{
+
+        width: 45%;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .section-heading h1{
+        width: 278px;
+        height: 138px;
+
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .section-image img{
+        width: 329px;
+        height: 259.17px;
+
+       
+    }
+    .second-container{
+        margin-bottom: 65px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        width : 1100px;
+        margin-left: 26px;
+    }
+    .live-match {
+        display: flex;
+        padding: 0 10px;
+        flex-direction: column;
+    }
+    .highlights-title{
+        width: 294px;
+        height: 80px;
+        
+       
+
+    }
+    .match-details{
+        margin-bottom: 30px;
+    }
+    .match-details h1{
+        width: 100%;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    
+    .highlights-info{
+        width: 329px;
+        height: 143px;
+
+    }
+    .match-snippets img {
+        margin-left: 20px;
+        width: 328px;
+        height: 248px;
+
+    }
+    .logo img {
+        width: 255.87px;
+        height: 80px;
+    }
+    
+}    
+    
+    
+    
+   
+    
+
